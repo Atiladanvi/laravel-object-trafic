@@ -1,13 +1,13 @@
 <?php
 
-namespace Atiladanvi\LaravelObjetcTrafic;
+namespace Atiladanvi\LaravelObjectTrafic;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Atiladanvi\LaravelObjetcTrafic\Skeleton\SkeletonClass
+ * @see \Atiladanvi\LaravelObjectTrafic\Skeleton\SkeletonClass
  */
-class LaravelObjetcTraficFacade extends Facade
+class LaravelObjectTraficFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelObjetcTraficFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-objetc-trafic';
+        return 'laravel-object-trafic';
     }
 }

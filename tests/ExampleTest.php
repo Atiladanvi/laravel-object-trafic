@@ -1,6 +1,6 @@
 <?php
 
-namespace Atiladanvi\LaravelObjetcTrafic\Tests;
+namespace Atiladanvi\LaravelObjectTrafic\Tests;
 
 use PHPUnit\Framework\TestCase;
 
