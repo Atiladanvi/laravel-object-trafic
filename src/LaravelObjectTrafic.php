@@ -14,7 +14,6 @@ use Illuminate\Support\Carbon;
 class LaravelObjectTrafic
 {
 
-
     /**
      * @var \Illuminate\Database\Eloquent\Model
      */
@@ -80,7 +79,7 @@ class LaravelObjectTrafic
         if ($this->options->interval === 'month'){
             return 'M-d';
         }
-        return 'D';
+        return 'D-d/m';
     }
 
     /**
